@@ -1,0 +1,15 @@
+# Core (no external deps for n-gram mode)
+# Python >= 3.10
+
+# Web UI
+streamlit>=1.32.0
+
+# Deep learning backend (optional — only needed for --rnn)
+# torch>=2.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Utilities (optional — nicer CLI output)
+rich>=13.0.0
